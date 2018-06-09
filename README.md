@@ -17,7 +17,7 @@ sudo ldconfig
 
 # Configure Array.IO node
 ```
-git clone https://github.com/array-io/array-io-newton
+git clone https://github.com/arrayio/array-io-newton.git
 cd array-io-newton
 ```
 * edit "config.ini"
