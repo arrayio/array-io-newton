@@ -30,5 +30,15 @@ cd array-io-newton
 LC_ALL=C witness_node --data-dir=.
 ```
 
+# Alternative: Docker instructions
+* Build container image
+```
+docker build -t array-io/array-io-newton .
+```
+* Run container, expose RPC and P2P ports, mount config folder ~/.config/array-io-newton at host
+```
+docker run -it -p 9090:9090 -p 8090:8090 -v ~/.config/array-io-newton:/array-io-newton --name array-io-newton array-io/array-io-newton
+```
+
 
 MIT @ `LICENSE`
