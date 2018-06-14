@@ -34,7 +34,7 @@ suggest_brain_key
 {
   "brain_priv_key": "VOLET BUZZING BLASTID QUOITS RALPH WHIBA VAGUITY SONLIKE OUTGROW MISBORN CLOTBUR FRIZZER TONG DAND CARTER VERVAIN",
   "wif_priv_key": "5KaGG9t31Ajmgkm1Y8ymHDGL4czn2Su2jbjKHoYy2fYkNSPjCM7",
-  "pub_key": "BTS5T5D5p3Cddo97tTA1d1iSKxHEMazthLtyUpiLpXu8rLYVyHxrH"
+  "pub_key": "RAY5T5D5p3Cddo97tTA1d1iSKxHEMazthLtyUpiLpXu8rLYVyHxrH"
 }
 ```
 * Create issue in this repository or send following request to <email>
@@ -53,7 +53,7 @@ cd array-io-newton
 * Attention !!! This is necessary only if you have personal account form previous steps!
 * edit "config.ini"  
 * replace witness-id = "1.6.6" with your witness id
-* replace private-key = ["BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV","5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"] with your tuple of [PublicKey, WIF private key]
+* replace private-key = ["RAY6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV","5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"] with your tuple of [PublicKey, WIF private key]
 
 # Start Array.IO node
 ```
