@@ -15,7 +15,7 @@ sudo ldconfig
 # Request witness account creation
 * Connect to test-net with cli-wallet utility
 ```
-cli_wallet --wallet-file=my-wallet.json --chain-id e1117cb38cdd68ed5f17d58f271f0899b466a831d436c4742b5934dd187118ef -s ws://35.204.174.233:8090
+cli_wallet --wallet-file=my-wallet.json --chain-id fada09cf7b077b207cf8220f89e1318e85bc6dbf56901fe9fd8ecd9e1bfdda8c -s ws://35.204.174.233:8090
 ```
 * Set password for your wallet
 ```
