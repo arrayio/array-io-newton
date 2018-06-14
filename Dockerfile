@@ -1,7 +1,7 @@
 FROM debian
 
 RUN apt update && apt -y install wget && \
-    wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.183.deb && \
+    wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.191.deb && \
     dpkg -i array-io-core_0.1.183.deb && \
     mkdir -p /dist
 
