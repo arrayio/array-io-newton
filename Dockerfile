@@ -1,6 +1,6 @@
 FROM debian
 
-RUN apt update && apt -y install wget && \
+RUN apt update && apt -y install wget libncurses5 && \
     wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.192.deb && \
     dpkg -i array-io-core_0.1.192.deb && \
     mkdir -p /dist
