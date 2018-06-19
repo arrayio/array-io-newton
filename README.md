@@ -3,11 +3,11 @@
 This manual describes how to setup Array.IO node.
 
 # Requirements
-* Debian 9 strongly recommended
+* Ubuntu 16.04 / Debian 9 recommended
 
 # Install Array.IO node
 ```
-wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.183.deb
+wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.192.deb
 sudo dpkg -i array-io-core_0.1.183.deb
 sudo ldconfig
 ```
