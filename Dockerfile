@@ -8,6 +8,7 @@ RUN apt update && apt -y install wget libncurses5 && \
 ADD main_genesis.json /dist/main_genesis.json
 ADD config.ini /dist/config.ini
 ADD api-access.json /dist/api-access.json
+ADD log-config.ini /dist/log-config.json
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
