@@ -1,12 +1,13 @@
 FROM debian
 
 RUN apt update && apt -y install wget libncurses5 && \
-    wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.192.deb && \
+    wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.212.deb && \
     dpkg -i array-io-core_0.1.192.deb && \
     mkdir -p /dist
 
 ADD main_genesis.json /dist/main_genesis.json
 ADD config.ini /dist/config.ini
+ADD api-access.json /dist/api-access.json
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh

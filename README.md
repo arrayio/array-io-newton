@@ -7,8 +7,8 @@ This manual describes how to setup Array.IO node.
 
 # Install Array.IO node
 ```
-wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.192.deb
-sudo dpkg -i array-io-core_0.1.183.deb
+wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.212.deb
+sudo dpkg -i array-io-core_0.1.212.deb
 sudo ldconfig
 ```
 
@@ -52,7 +52,7 @@ cd array-io-newton
 ```
 * Attention !!! This is necessary only if you have personal account form previous steps!
 * edit "config.ini"  
-* replace witness-id = "1.6.6" with your witness id
+* replace witness-id = "1.5.6" with your witness id
 * replace private-key = ["RAY6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV","5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"] with your tuple of [PublicKey, WIF private key]
 
 # Start Array.IO node
