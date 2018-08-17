@@ -7,8 +7,8 @@ This manual describes how to setup Array.IO node.
 
 # Install Array.IO node
 ```
-wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.212.deb
-sudo dpkg -i array-io-core_0.1.212.deb
+wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.252.deb
+sudo dpkg -i array-io-core_0.1.252.deb
 sudo ldconfig
 ```
 
