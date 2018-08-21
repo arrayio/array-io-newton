@@ -1,251 +1,192 @@
 {
-  "initial_timestamp": "2018-07-12T14:31:50",
+  "initial_timestamp": "2018-07-27T14:16:30",
   "max_core_supply": "1000000000000000",
   "initial_parameters": {
     "current_fees": {
-      "parameters": [
-        [
-          0, {
+      "parameters": [[
+          0,{
             "fee": 2000000,
             "price_per_kbyte": 1000000
           }
-        ],
-        [
-          1, {
-            "fee": 500000
-          }
-        ],
-        [
-          2, {
-            "fee": 0
-          }
-        ],
-        [
-          3, {}
-        ],
-        [
-          4, {
+        ],[
+          1,{
             "basic_fee": 500000,
             "premium_fee": 200000000,
             "price_per_kbyte": 100000
           }
-        ],
-        [
-          5, {
+        ],[
+          2,{
             "fee": 500000
           }
-        ],
-        [
-          6, {
+        ],[
+          3,{
             "fee": 2000000,
             "price_per_kbyte": 100000
           }
-        ],
-        [
-          7, {
+        ],[
+          4,{
             "fee": 300000
           }
-        ],
-        [
-          8, {
+        ],[
+          5,{
             "fee": 50000000
           }
-        ],
-        [
-          9, {
+        ],[
+          6,{
             "symbol3": "50000000000",
             "symbol4": "30000000000",
             "long_symbol": 500000000,
             "price_per_kbyte": 10
           }
-        ],
-        [
-          10, {
+        ],[
+          7,{
             "fee": 50000000,
             "price_per_kbyte": 10
           }
-        ],
-        [
-          11, {
+        ],[
+          8,{
             "fee": 2000000,
             "price_per_kbyte": 100000
           }
-        ],
-        [
-          12, {
+        ],[
+          9,{
             "fee": 2000000
           }
-        ],
-        [
-          13, {
+        ],[
+          10,{
             "fee": 100000
           }
-        ],
-        [
-          14, {
+        ],[
+          11,{
             "fee": 500000000
           }
-        ],
-        [
-          15, {
+        ],[
+          12,{
             "fee": 2000000
           }
-        ],
-        [
-          16, {
+        ],[
+          13,{
             "fee": 2000000,
             "price_per_kbyte": 10
           }
-        ],
-        [
-          17, {
+        ],[
+          14,{
             "fee": 2000000,
             "price_per_kbyte": 10
           }
-        ],
-        [
-          18, {
+        ],[
+          15,{
             "fee": 100000
           }
-        ],
-        [
-          19, {
+        ],[
+          16,{
             "fee": 100000
           }
-        ],
-        [
-          20, {
+        ],[
+          17,{
             "fee": 100000
           }
-        ],
-        [
-          21, {
+        ],[
+          18,{
             "fee": 2000000,
             "price_per_kbyte": 10
           }
-        ],
-        [
-          22, {
+        ],[
+          19,{
             "fee": 0
           }
-        ],
-        [
-          23, {
+        ],[
+          20,{
             "fee": 500000000
           }
-        ],
-        [
-          24, {
+        ],[
+          21,{
             "fee": 2000000
           }
-        ],
-        [
-          25, {
+        ],[
+          22,{
             "fee": 100000
           }
-        ],
-        [
-          26, {
+        ],[
+          23,{
             "fee": 100000
           }
-        ],
-        [
-          27, {
+        ],[
+          24,{
             "fee": 2000000
           }
-        ],
-        [
-          28, {
+        ],[
+          25,{
             "fee": 500000000
           }
-        ],
-        [
-          29, {
+        ],[
+          26,{
             "fee": 100000,
             "price_per_kbyte": 10
           }
-        ],
-        [
-          30, {
+        ],[
+          27,{
             "fee": 100000
           }
-        ],
-        [
-          31, {}
-        ],
-        [
-          32, {
+        ],[
+          28,{}
+        ],[
+          29,{
             "fee": 2000000,
             "price_per_kbyte": 10
           }
-        ],
-        [
-          33, {
+        ],[
+          30,{
             "fee": 500000,
             "price_per_output": 500000
           }
-        ],
-        [
-          34, {
+        ],[
+          31,{
             "fee": 500000,
             "price_per_output": 500000
           }
-        ],
-        [
-          35, {
+        ],[
+          32,{
             "fee": 500000
           }
-        ],
-        [
-          36, {
+        ],[
+          33,{
             "fee": 2000000
           }
-        ],
-        [
-          37, {}
-        ],
-        [
-          38, {}
-        ],
-        [
-          39, {
+        ],[
+          34,{
             "basic_fee": 100000000,
             "premium_fee": 1000000000,
             "price_per_kbyte": 100000
           }
-        ],
-        [
-          40, {
+        ],[
+          35,{
             "fee": 5000000,
             "gas_price_quote": 100000,
             "gas_price_base": 100,
             "price_per_kbyte": 1000000
           }
-        ],
-        [
-          41, {
+        ],[
+          36,{
             "fee": 5000000,
             "price_per_kbyte_stg": 100000000,
             "price_per_day_sqr": 1500000,
             "price_per_kbyte_blk": 1500000
           }
-        ],
-        [
-          42, {
+        ],[
+          37,{
             "fee": 3000000,
             "price_per_kbyte_stg": 100000000,
             "price_per_day_sqr": 1500000,
             "price_per_kbyte_blk": 1500000
           }
-        ],
-        [
-          43, {
+        ],[
+          38,{
             "fee": 5000000,
             "price_per_kbyte_blk": 1500000
           }
-        ],
-        [
-          44, {
+        ],[
+          39,{
             "fee": 5000000
           }
         ]
@@ -417,10 +358,11 @@
   ],
   "initial_assets": [],
   "initial_balances": [{
-    "owner": "RAYFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
-    "asset_symbol": "RAY",
-    "amount": "1000000000000000"
-  }],
+      "owner": "RAYFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
+      "asset_symbol": "RAY",
+      "amount": "1000000000000000"
+    }
+  ],
   "initial_vesting_balances": [],
   "initial_active_witnesses": 11,
   "initial_witness_candidates": [{
