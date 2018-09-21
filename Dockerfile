@@ -1,8 +1,8 @@
 FROM debian
 
 RUN apt update && apt -y install wget libncurses5 && \
-    wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.252.deb && \
-    dpkg -i array-io-core_0.1.252.deb && \
+    wget https://github.com/arrayio/array-io-newton/releases/download/initial/array-io-core_0.1.275.deb && \
+    dpkg -i array-io-core_0.1.275.deb && \
     mkdir -p /dist
 
 ADD main_genesis.json /dist/main_genesis.json
